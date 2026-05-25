@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Result Portal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container">
+    <div class="top-box">
+        <h1>✦ Student Examination Portal</h1>
+        <p>Welcome to the Online Examination Result System.
+        Students can securely access results by enteringr
+        their Roll Number and Mother's Name.
+        </p>
+        <hr><p>Please verify your details carefully before proceeding.</p>
+    </div>
+    <div class="card">
+        <h2>Result Verification</h2>
+        <label>Roll Number</label>
+        <input type="text" id="roll" placeholder="Enter Roll Number">
+        <label>Mother's Name</label>
+        <input type="text" id="mother" placeholder="Enter Mother's Name">
+        <button onclick="checkResult()">View Result</button>
+        <p id="msg"></p>
+    </div>
+    <div class="bottom-box">
+        <h3>Instructions</h3>
+        <hr>
+        <p>• Enter details exactly as per school records</p>
+        <p>• Verify Roll Number before submission</p><p>• Online result is for information purposes only</p>
+        <p>• Contact school authority for official marksheet</p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
